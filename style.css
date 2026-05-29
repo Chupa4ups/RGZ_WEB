@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+/* ---------- Блоки ---------- */
+
+.block {
+    background-color: white;
+    margin: 40px 0;
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.block h2 {
+    color: #003366;
+}
+
+.image {
+    width: 100%;
+    max-width: 600px;
+
+    display: block;
+
+    margin: 20px auto;
+
+    border-radius: 10px;
+}
+
+/* ---------- Меню ---------- */
+
+.menu { position: fixed; bottom: 20px; 
+    left: 50%; transform: translateX(-50%); 
+    background-color: #003366; 
+    padding: 15px 30px; 
+    border-radius: 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 25px; transition: 0.3s; 
+    flex-wrap: wrap; }
+
+.menu:hover { 
+    transform: translateX(-50%) scale(1.05); 
+}
+
+.menu a { text-decoration: none; 
+    color: white; 
+    font-size: 18px; 
+    font-weight: bold; 
+    white-space: nowrap; 
+    transition: 0.3s; }
+
+.menu a:hover {
+    color: yellow;
+}
+
+/* ---------- Кнопка наверх ---------- */
+
+#topButton {
+    position: fixed;
+
+    right: 20px;
+    bottom: 100px;
+
+    width: 50px;
+    height: 50px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: #003366;
+    color: white;
+
+    font-size: 22px;
+
+    cursor: pointer;
+}
+
+#topButton:hover {
+    background-color: #0055aa;
+}
+
+/* ---------- Новости ---------- */
+
+.news-card {
+    background-color: white;
+
+    margin: 30px auto;
+    padding: 20px;
+
+    width: 80%;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.news-card h2 {
+    color: #003366;
+}
+
+.date {
+    color: gray;
+}
+
+.hidden-text {
+    display: none;
+    margin-top: 15px;
+}
+
+.news-card button {
+    margin-top: 15px;
+
+    padding: 10px 20px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #003366;
+    color: white;
+
+    cursor: pointer;
+}
+
+.news-card button:hover {
+    background-color: #0055aa;
+}
+
+/* ---------- Калькулятор ---------- */
+
+.converter {
+    background: white;
+
+    width: 80%;
+
+    margin: 30px auto;
+    padding: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+    text-align: center;
+}
+
+.converter input {
+    padding: 10px;
+    margin: 10px;
+}
+
+.converter button {
+    padding: 10px 20px;
+
+    border: none;
+
+    background: #003366;
+    color: white;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+}
+
+.converter button:hover {
+    background: #0055aa;
+}
+
+#chart {
+    display: block;
+
+    margin: 40px auto 120px auto;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ---------- Контакты ---------- */
+
+.contacts-block {
+    width: 80%;
+
+    margin: 30px auto;
+
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contacts-block h2 {
+    color: #003366;
+}
+
+.contacts-block p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.contacts-block a {
+    color: #003366;
+    text-decoration: none;
+}
+
+.contacts-block a:hover {
+    text-decoration: underline;
+}
+
+.map-block {
+    width: 80%;
+
+    margin: 30px auto 120px auto;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ---------- Видео ---------- */
+
+.video-block {
+    width: 80%;
+
+    margin: 30px auto 120px auto;
+
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+    text-align: center;
+}
+
+.video-block h2 {
+    color: #003366;
+}
+
+.video-block p {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.video-block iframe {
+    border-radius: 10px;
+}
+
