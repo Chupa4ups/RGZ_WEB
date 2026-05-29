@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курс валют</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico 32x32">
+    <link rel="icon" href="favicon.ico 48x48">
+</head>
+<body>
+
+    <header>
+        <h1>Курс валют</h1>
+    </header>
+
+    <main>
+
+        <div class="converter">
+            <h2>Калькулятор валют (UZS)</h2>
+
+            <input type="number" id="rub" placeholder="Рубли">
+            <button onclick="toUZS()">RUB → UZS</button>
+
+            <input type="number" id="uzs" placeholder="Сум">
+            <button onclick="toRUB()">UZS → RUB</button>
+
+            <p id="result"></p>
+        </div>
+
+        <canvas id="chart" width="600" height="300"></canvas>
+
+    </main>
+
+    <nav class="menu">
+        <a href="index.html">О компании</a>
+        <a href="news.html">Новости</a>
+        <a href="currency.html">Калькулятор</a>
+        <a href="contacts.html">Контактные данные</a>
+        <a href="video.html">Видео</a>
+    </nav>
+
+    <script src="currency.js"></script>
+</body>
+</html>
