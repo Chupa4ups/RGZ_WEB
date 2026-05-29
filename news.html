@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости НПО Наука</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico 32x32">
+    <link rel="icon" href="favicon.ico 48x48">
+</head>
+
+<script>
+
+function showNews(button) {
+
+    let card = button.parentElement;
+
+    let text = card.querySelector('.hidden-text');
+
+    if (text.style.display === 'block') {
+
+        text.style.display = 'none';
+        button.innerHTML = 'Показать';
+    }
+
+    else {
+
+        text.style.display = 'block';
+        button.innerHTML = 'Скрыть';
+    }
+}
+</script>
+
+<body>
+
+    <header>
+        <h1>Новости компании</h1>
+    </header>
+
+    <main>
+
+        <div class="news-card">
+            <h2>Новая разработка авиационной системы</h2>
+            <p class="date">12 мая 2026</p>
+
+            <p>
+                НПО «Наука» представила новую авиационную систему
+                для современных самолётов.
+            </p>
+
+            <div class="hidden-text">
+                <p>
+                    Разработка позволит повысить эффективность
+                    управления авиационной техникой и улучшить
+                    безопасность полётов.
+                </p>
+            </div>
+
+            <button onclick="showNews(this)">
+                Показать
+            </button>
+        </div>
+
+        <div class="news-card">
+            <h2>Расширение производства</h2>
+            <p class="date">5 мая 2026</p>
+
+            <p>
+                Компания объявила о расширении производственных
+                мощностей.
+            </p>
+
+            <div class="hidden-text">
+                <p>
+                    В рамках проекта будут открыты новые цеха
+                    и модернизировано оборудование предприятия.
+                </p>
+            </div>
+
+            <button onclick="showNews(this)">
+                Показать
+            </button>
+        </div>
+
+        <div class="news-card">
+            <h2>Участие в авиационной выставке</h2>
+            <p class="date">28 апреля 2026</p>
+
+            <p>
+                НПО «Наука» приняла участие в международной
+                авиационной выставке.
+            </p>
+
+            <div class="hidden-text">
+                <p>
+                    Компания представила новые технологии
+                    и перспективные разработки.
+                </p>
+            </div>
+
+            <button onclick="showNews(this)">
+                Показать
+            </button>
+        </div>
+
+        <div class="news-card">
+            <h2>Подписание нового контракта</h2>
+            <p class="date">20 апреля 2026</p>
+
+            <p>
+                Предприятие заключило договор на поставку
+                авиационного оборудования.
+            </p>
+
+            <div class="hidden-text">
+                <p>
+                    Контракт рассчитан на несколько лет и включает
+                    поставку современной техники.
+                </p>
+            </div>
+
+            <button onclick="showNews(this)">
+                Показать
+            </button>
+        </div>
+
+        <div class="news-card">
+            <h2>Модернизация оборудования</h2>
+            <p class="date">15 апреля 2026</p>
+
+            <p>
+                На предприятии началась модернизация оборудования.
+            </p>
+
+            <div class="hidden-text">
+                <p>
+                    Новые технологии позволят повысить качество
+                    выпускаемой продукции.
+                </p>
+            </div>
+
+            <button onclick="showNews(this)">
+                Показать
+            </button>
+        </div>
+
+        <div class="news-card">
+            <h2>Увеличение числа сотрудников</h2>
+            <p class="date">10 апреля 2026</p>
+
+            <p>
+                Компания открыла новые вакансии для специалистов.
+            </p>
+
+            <div class="hidden-text">
+                <p>
+                    В первую очередь требуются инженеры и разработчики.
+                </p>
+            </div>
+
+            <button onclick="showNews(this)">
+                Показать
+            </button>
+        </div>
+
+        <div class="news-card">
+            <h2>Испытания новой техники</h2>
+            <p class="date">2 апреля 2026</p>
+
+            <p>
+                Завершились испытания нового оборудования.
+            </p>
+
+            <div class="hidden-text">
+                <p>
+                    Техника успешно прошла все этапы проверки.
+                </p>
+            </div>
+
+            <button onclick="showNews(this)">
+                Показать
+            </button>
+        </div>
+
+        <div class="news-card">
+            <h2>Сотрудничество с университетами</h2>
+            <p class="date">25 марта 2026</p>
+
+            <p>
+                Компания расширяет сотрудничество с вузами.
+            </p>
+
+            <div class="hidden-text">
+                <p>
+                    Планируется запуск новых образовательных программ.
+                </p>
+            </div>
+
+            <button onclick="showNews(this)">
+                Показать
+            </button>
+        </div>
+
+        <div class="news-card">
+            <h2>Новые исследования</h2>
+            <p class="date">18 марта 2026</p>
+
+            <p>
+                НПО «Наука» продолжает научные исследования.
+            </p>
+
+            <div class="hidden-text">
+                <p>
+                    Специалисты работают над улучшением авиационных
+                    технологий.
+                </p>
+            </div>
+
+            <button onclick="showNews(this)">
+                Показать
+            </button>
+        </div>
+
+        <div class="news-card">
+            <h2>Развитие цифровых технологий</h2>
+            <p class="date">10 марта 2026</p>
+
+            <p>
+                Компания внедряет цифровые решения в производство.
+            </p>
+
+            <div class="hidden-text">
+                <p>
+                    Это позволит повысить эффективность работы предприятия.
+                </p>
+            </div>
+
+            <button onclick="showNews(this)">
+                Показать
+            </button>
+        </div>
+
+    </main>
+
+    <nav class="menu">
+        <a href="index.html">О компании</a>
+        <a href="news.html">Новости</a>
+        <a href="currency.html">Калькулятор</a>
+        <a href="contacts.html">Контактные данные</a>
+        <a href="video.html">Видео</a>
+    </nav>
+
+    <script src="news.js"></script>
+</body>
+</html>
